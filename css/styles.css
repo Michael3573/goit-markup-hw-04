@@ -46,7 +46,7 @@ color: var(--colorText);
 .ch-color:hover,
 .ch-color:focus {
     background-color: var(--color);
-    color: ;
+    
 }
 
 .color:hover,
