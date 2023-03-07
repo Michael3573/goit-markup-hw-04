@@ -4,6 +4,11 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+:root {
+    --color: #4D5AE5;
+    --colorText: #2E2F42;
+    
+}
 .list {
     list-style: none;
 }
@@ -18,7 +23,7 @@ font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
-color: #2E2F42;
+color: var(--colorText);
 }
 
 .font-cont {
@@ -35,16 +40,22 @@ font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
-color: #2E2F42;
+color: var(--colorText);
 }
 
 .ch-color:hover,
 .ch-color:focus {
-    background-color: #4D5AE5;
-    color: white;
+    background-color: var(--color);
+    color: ;
 }
 
 .color:hover,
 .color:focus{
-    color: #4D5AE5;
+    color: var(--color);
 }
+
+.pointer {
+    cursor: pointer;
+}
+
+
