@@ -1,5 +1,5 @@
 body {
-    list-style: #2E2F42;
+    list-style: var(--color-body);
     background-color: #FFFFFF;
     font-family: 'Roboto', sans-serif;
 }
@@ -7,6 +7,8 @@ body {
 :root {
     --color: #4D5AE5;
     --colorText: #2E2F42;
+    --color-hover: #404bbf
+    --color-body: #434455;
     
 }
 .list {
@@ -45,17 +47,50 @@ color: var(--colorText);
 
 .ch-color:hover,
 .ch-color:focus {
-    background-color: var(--color);
+background-color: var(--color);
     
 }
 
 .color:hover,
 .color:focus{
-    color: var(--color);
+color: var(--color-hover);
 }
 
 .pointer {
-    cursor: pointer;
+cursor: pointer;
 }
 
+.logo{
+font-family: "Raleway", sans-serif;
+font-weight: 800;
+font-size: 18px;
+line-height: 1.17;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: var(--color);
+text-decoration: none;
+}
 
+.logo-col{
+color: var(--colorText);
+}
+.menu{
+list-style: none;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: var(--colorText);
+}
+
+.menu-btn{
+text-decoration: none;
+}
+
+.cursv{
+font-style: normal;
+}
+
+.sectiones{
+background-color: var(--colorText);
+}
