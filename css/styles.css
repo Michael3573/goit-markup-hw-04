@@ -4,6 +4,7 @@ color: #434455;
 }
 :root{
 --font-text:#2e2f42;
+--text:#434455;
 }
 .list{
     list-style: none;
@@ -33,9 +34,19 @@ letter-spacing: 0.03em;
 text-transform: uppercase;
 color: #2E2F42;     
 }
+.studio-top-footer {
+font-family: 'Raleway' sans-serif;
+font-style: normal;
+font-weight: 800;
+font-size: 18px;
+line-height: 1.5;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color:#F4F4FD;
+}
 
 .header-nav{
-font-family: 'Roboto';
+font-family: 'Roboto' sans-serif;
 font-style: normal;
 font-weight: 500;
 font-size: 16px;
@@ -48,11 +59,100 @@ color: var(--font-text);
 color: #404bbf;
 }   
 .header-addr{
+font-family: 'Roboto' sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #434455;
+}
+
+/* Hero */
+.hero{
+background-color: #2E2F42;
+}
+.hero-text{
+font-family: 'Roboto' sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 56px;
+line-height: 1.07;
+text-align: center;
+letter-spacing: 0.02em;
+color: #FFFFFF;
+}
+
+.hero-btn{
+font-family: "Roboto", sans-serif;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.04em;
+color: #ffffff;
+cursor: pointer;
+background: #4D5AE5;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
+}
+.hov-btn:hover,
+.hov-btn:focus{
+background-color: #404bbf;
+}
+
+/* Sections  */
+.feature-content{
+font-family: 'Roboto' sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+color: var(--font-text);
+}
+.feature-text{
+font-family: 'Roboto' sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+color: var(--text);
+}
+.semple-text{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 1.11;
+text-align: center;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+color: var(--font-text);
+}
+.cards-text{
+font-size: 16px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+color: var(--text);
+}
+
+/* Sections portfolio */
+
+
+/* Footer */
+.foot-text{
 font-family: 'Roboto';
 font-style: normal;
 font-weight: 400;
 font-size: 16px;
-line-height: 24px;
+line-height: 1.5;
 letter-spacing: 0.02em;
-color: #434455;
+color: #E7E9FC;
+}
+.back-foot{
+    background-color:#2e2f42;
+}
+.foot-clt{
+    color: #f4f4fd;
 }
