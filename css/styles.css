@@ -2,120 +2,57 @@ body{
 font-family: "Roboto", sans-serif;
 color: #434455;
 }
-
-.root{
---color-log:#4d5ae5;
---color: #2e2f42;
+:root{
+--font-text:#2e2f42;
 }
-
+.list{
+    list-style: none;
+}
 .link{
-text-decoration: none;
-}
-.list {
-list-style: none;
+    text-decoration: none;
 }
 
-.menu {
-list-style: none;
-font-weight: 500;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
-color: var(--colorText);
-}
-.logo-stl{
-font-family: "Raleway", sans-serif;
+/* Header */
+.web-top{
+font-family: 'Raleway' sans-serif;
+font-style: normal;
 font-weight: 800;
 font-size: 18px;
 line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
-color: var(--color-log);
+color: #4D5AE5;
 }
-
-.color{
-color: var(--color);
-}
-.ul{
-list-style: none;
-}
-
-.color-cheng:hover,
-.color-cheng:focus{
-color: #404bbf;
-}
-.addr-font{
+.studio-top{
+font-family: 'Raleway' sans-serif;
 font-style: normal;
+font-weight: 800;
+font-size: 18px;
+line-height: 1.5;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #2E2F42;     
 }
 
-.font-cont {
-    font-family: 'Roboto' sans-serif;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
-}
-
-.col-spn{
-color: #2e2f42;
-}
-
-
-/* Hero */
-.font {
-font-family: 'Roboto', sans-serif;
+.header-nav{
+font-family: 'Roboto';
+font-style: normal;
 font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
-color: var(--colorText);
+color: var(--font-text);
 }
-
-.sectiones {
-    background-color: var(--color);
-}
-.sect{
-font-size: 56px;
-line-height: 1.07;
-text-align: center;
+.hover-btn:hover,
+.hover-btn:focus{
+color: #404bbf;
+}   
+.header-addr{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
 letter-spacing: 0.02em;
-color: #ffffff;
-}
-.pointer{
-    cursor: pointer;
-}
-.bnutton{
-letter-spacing: 0.04em;
-color: #ffffff;
-}
-
-/* Sectiones 1 */
-.tittle-privilage{
-font-weight: 500;
-font-size: 20px;
-line-height: 1.2;
-letter-spacing: 0.02em;
-color: var(--color);
-}
-
-/* Sectiones 2-3 */
-
-.font-text{
-font-size: 36px;
-line-height: 1.1;
-text-align: center;
-letter-spacing: 0.02em;
-text-transform: capitalize;
-color: var(--color);
-}
-
-/* Footer */
-
-.footer{
-background-color: #2e2f42;
-
-}
-
-.span-ftr{
-color: #f4f4fd;
+color: #434455;
 }
