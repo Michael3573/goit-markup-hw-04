@@ -95,6 +95,11 @@ border-radius: 4px;
 background-color: #404bbf;
 }
 
+.nav-btn:hover,
+.nav-btn:focus {
+    background-color: #404bbf;
+}
+
 .nav-btn{
 font-family: "Roboto", sans-serif;
 font-weight: 500;
