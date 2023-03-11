@@ -5,6 +5,7 @@ color: #434455;
 :root{
 --font-text:#2e2f42;
 --text:#434455;
+--color: #4d5ae5;
 }
 .list{
     list-style: none;
@@ -89,11 +90,20 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 border-radius: 4px;
 }
 
-.hero-btn:hover,
-.hero-btn:focus{
+.nav-btn:hover,
+.nav-btn:focus{
 background-color: #404bbf;
 }
 
+.nav-btn{
+font-family: "Roboto", sans-serif;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.04em;
+cursor: pointer;
+color: var(--color);
+}
 /* Sections  */
 .feature-content{
 font-family: 'Roboto' sans-serif;
