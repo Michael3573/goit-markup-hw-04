@@ -175,3 +175,7 @@ letter-spacing: 0.03em;
 text-transform: uppercase;
 color: #F4F4FD;
 }
+
+.cls{
+line-height: 1.5;
+}
