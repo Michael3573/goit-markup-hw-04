@@ -63,7 +63,7 @@ font-style: normal
 .hero{
 background-color: var(--font-text);
 }
-.hero-text{
+.hero-tittle{
 font-family: 'Roboto', sans-serif;
 font-size: 56px;
 line-height: 1.07;
@@ -86,12 +86,12 @@ border-radius: 4px;
 }
 
 .hover-btn:hover{
-    background-color: #404bbf;
-    color: #ffffff;
+    background-color: var(--hov-btn);
+    color: var(--white-col);
 }
 .hover-nav:hover,
 .hover-nav:focus{
-color: #404bbf;
+color: var(--hov-btn);
 }
 
 .nav-btn{
@@ -121,7 +121,7 @@ letter-spacing: 0.02em;
 text-transform: capitalize;
 color: var(--font-text);
 }
-.feature-content{
+.feature-subtitle{
 font-family: 'Roboto', sans-serif;
 font-weight: 500;
 font-size: 20px;
@@ -129,7 +129,7 @@ line-height: 1.2;
 letter-spacing: 0.02em;
 color: var(--font-text);
 }
-.cards-text{
+.cards-subtext{
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
