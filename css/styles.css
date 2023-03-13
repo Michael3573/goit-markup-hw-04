@@ -1,11 +1,15 @@
 body{
 font-family: "Roboto", sans-serif;
-color: #434455;
+color: var(--text);
 }
 :root{
 --font-text:#2e2f42;
 --text:#434455;
 --color: #4d5ae5;
+--hov-btn: #404bbf;
+--white-col: #ffffff;
+--ft-col: #f4f4fd;
+--color-tex: #E7E9FC;
 }
 .list{
     list-style: none;
@@ -22,7 +26,7 @@ font-size: 18px;
 line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
-color: #4D5AE5;
+color: var(--color)
 }
 .studio-top{
 font-family: 'Raleway', sans-serif;
@@ -31,7 +35,7 @@ font-size: 18px;
 line-height: 1.5;
 letter-spacing: 0.03em;
 text-transform: uppercase;
-color: #2E2F42;     
+color: var(--font-text);     
 }
 
 .header-nav{
@@ -42,33 +46,30 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 color: var(--font-text);
 }
-.hover-btn:hover,
-.hover-btn:focus{
-color: #404bbf;
-}   
+
 .header-addr{
 font-family: 'Roboto', sans-serif;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
-color: #434455;
+color: var(--text);
 }
 
 .font{
 font-style: normal
 }
+
 /* Hero */
 .hero{
-background-color: #2E2F42;
+background-color: var(--font-text);
 }
 .hero-text{
 font-family: 'Roboto', sans-serif;
-font-weight: 700;
 font-size: 56px;
 line-height: 1.07;
 text-align: center;
 letter-spacing: 0.02em;
-color: #FFFFFF;
+color: var(--white-col);
 }
 
 .hero-btn{
@@ -77,21 +78,20 @@ font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.04em;
-color: #ffffff;
+color: var(--white-col);
 cursor: pointer;
-background: #4D5AE5;
+background: var(--color);
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 border-radius: 4px;
 }
 
-.hov-btn:hover,
-.hov-btn:focus{
-background-color: #404bbf;
-}
-
-.nav-btn:hover,
-.nav-btn:focus {
+.hover-btn:hover{
     background-color: #404bbf;
+    color: #ffffff;
+}
+.hover-nav:hover,
+.hover-nav:focus{
+color: #404bbf;
 }
 
 .nav-btn{
@@ -114,7 +114,6 @@ color: var(--text);
 
 .semple-text {
 font-family: 'Roboto', sans-serif;
-font-weight: 700;
 font-size: 36px;
 line-height: 1.11;
 text-align: center;
@@ -143,13 +142,13 @@ font-family: 'Roboto',sans-serif;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
-color: #E7E9FC;
+color: var(--color-tex);
 }
 .back-foot{
-    background-color:#2e2f42;
+    background-color:var(--font-text);
 }
 .foot-clt{
-    color: #f4f4fd;
+    color: var(--ft-col);
 }
 .studio-top-footer {
 font-family: 'Raleway', sans-serif;
@@ -158,5 +157,5 @@ font-size: 18px;
 line-height: 1.5;
 letter-spacing: 0.03em;
 text-transform: uppercase;
-color: #F4F4FD;
+color: var(--ft-col);
 }
