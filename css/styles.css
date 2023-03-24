@@ -2,6 +2,20 @@ body{
 font-family: "Roboto", sans-serif;
 color: var(--text);
 }
+/* * {
+    margin: 0;
+    padding: 0;
+} */
+
+p,h1,h2,h3,h4,h5,h6{
+margin: 0;
+}
+
+ul {
+    margin: 0;
+    padding-left: 0;
+}
+
 :root{
 --font-text:#2e2f42;
 --text:#434455;
@@ -12,6 +26,7 @@ color: var(--text);
 --color-tex: #E7E9FC;
 
 --card-set-gap: 20px;
+
 }
 .list{
     list-style: none;
@@ -61,17 +76,22 @@ color: var(--text);
 font-style: normal
 }
 
-/* Hero */
+/* =================Hero =========================*/
 .hero{
 background-color: var(--font-text);
+    width: 1440px;
+    height: 600px;
+    text-align: center;
 }
 .hero-tittle{
 font-family: 'Roboto', sans-serif;
 font-size: 56px;
 line-height: 1.07;
-text-align: center;
 letter-spacing: 0.02em;
 color: var(--white-col);
+max-width: 496px;
+padding-top: 188px;
+margin: 0 auto;
 }
 
 .hero-btn{
@@ -84,6 +104,9 @@ color: var(--white-col);
 cursor: pointer;
 background: var(--color);
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
+margin-top: 48px;
+padding: 16px 32px 16px;
 border-radius: 4px;
 }
 
@@ -122,6 +145,7 @@ text-align: center;
 letter-spacing: 0.02em;
 text-transform: capitalize;
 color: var(--font-text);
+padding-bottom: 72px;
 }
 .feature-subtitle{
 font-family: 'Roboto', sans-serif;
@@ -130,12 +154,15 @@ font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
 color: var(--font-text);
+padding-top: 32px;
 }
 .cards-subtext{
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: var(--text);
+padding-top: 8px;
+padding-bottom: 32px;
 }
 
 /* Footer */
@@ -145,9 +172,17 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: var(--color-tex);
+width: 264px;
+height: 72px;
+padding-top: 16px;
 }
 .back-foot{
     background-color:var(--font-text);
+    width: 1440px;
+    height: 310px;
+    padding-top: 100px;
+    margin-right: auto;
+    margin-top: 120px;
 }
 .foot-clt{
     color: var(--ft-col);
@@ -162,105 +197,111 @@ text-transform: uppercase;
 color: var(--ft-col);
 }
 
-/* ========================================hw-3======================================== */
-.container-header{
-    width: 1440px;
-    height: 72px;
-}  
-
-.auth-nav{
-    display: flex;
-    margin-left: auto; 
-}
-.site-nav{
-    display: flex;
-    margin-left: 76px;
-}
-.site-nav .item:not(:last-child){
-    margin-right: 40px;
-}
-.site-nav .link{
-    display: block;
-    padding-top: 21px;
-    padding-bottom: 21px;
-}
-
-.auth-nav .item + .item{
-    margin-left: 40px;
-}
-
-.main-nav{
-    display: flex;
-    align-items: center;
-    /* justify-content: space-between; */
-    /* margin-left: 165px; */
-}
-.web-top{
-    margin-left: 165px;
-}
-/* ========================Sections 1================================== */
-
-.feature-list{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-.feature-list .item{
-    width: 264px;
-    margin-right: 24px;
-}
-
-.feature-list .item:not(:last-child){
-    margin-right: 24px;
-    }
-
- .feature-list .item-btn{
-    margin-right: 24px;
- }
-
-
+/* ======================hw-3======================================== */
 
 img {
     display: block;
-    max-width: 100%;
 }
 
- .card-set {
-     display: flex;
-     padding: 0;
-     margin: 0;
-     list-style: none;
-     flex-wrap: wrap;
+.contaier-site{
+    width: 1440px;
+}
 
-     margin-top: calc(-1 * --card-set-gap);
-     margin-left: calc(-1 * --card-set-gap);
- }
-
- .card-set > .item-card {
-     flex-basis: calc(100% / 3 - var(--card-set-gap));
-     margin-left: var(--card-set-gap);
-     margin-top: var(--card-set-gap);
-
- }
-
- .card-content {
-     padding: 10px;
- }
-
- .container-card{
+.box{
     width: 1128px;
-    margin-left: auto;
-    margin-right: auto;
- }
+    margin-top: 168px;
+    height: 48px;
+    padding-right: 15px;
+    margin: 0 auto;
+}
+
+.box1{
+    width: 1128px;
+    margin-top: 288px;
+    padding-right: 15px;
+    margin: 0 auto;
+    margin-top: 72px;
+}
+
+.container{
+    width: 1128px;
+    padding-right: 15px;
+    margin: 0 auto;
+}
+
+.section{
+padding-top: 120px;
+padding-bottom: 120px;
+}
+.feature-list{
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+}
+
+
+/* ======================Header=============== */
+.header-navigation{
+display: flex;
+align-items: center;
+/* justify-content: space-between; */
+margin-right: auto;
+}
+
+.site-nav{
+    display: flex;
+    gap: 40px;
+}
+
+/* Цей код нижче заминяє "gap" який знах. вище */
+/* .header-conteiner {
+    display: flex;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+.studio-top {
+    margin-right: 76px;
+} */
+
+.header-conteiner {
+    display: flex;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+.studio-top{
+    margin-right: 76px;
+}
+.button{
+    margin-top: 96px;
+    
+}
 
 
 
- .card-shadow {
-     box-shadow: var(--card-shadow);
-     border-radius: 15px;
-     overflow: hidden;
- }
- .card-item{
-padding: 24px;
- }
+/* ==================Sections============== */
+.card-item {
+    text-align: center;
+}
+.feature-subtitle{
+    margin-top: 32px;
+}
+
+
+
+.gallery-list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 48px 24px;
+}
+
+.gallery-list li{
+    width: calc((100% - 60px) / 3);
+}
+/* ======================Footer=============== */
+.box-footer{
+    width: 264px;
+    height: 110px;
+    margin-left: 156px;
+}
+
