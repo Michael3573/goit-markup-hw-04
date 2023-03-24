@@ -79,7 +79,8 @@ font-style: normal
 /* =================Hero =========================*/
 .hero{
 background-color: var(--font-text);
-    width: 1440px;
+    padding-top: 188px;
+    padding-bottom: 292px;
     height: 600px;
     text-align: center;
 }
@@ -90,8 +91,9 @@ line-height: 1.07;
 letter-spacing: 0.02em;
 color: var(--white-col);
 max-width: 496px;
-padding-top: 188px;
-margin: 0 auto;
+margin-left: auto;
+margin-right: auto;
+padding-bottom: 48px;
 }
 
 .hero-btn{
@@ -105,9 +107,9 @@ cursor: pointer;
 background: var(--color);
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 border-radius: 4px;
-margin-top: 48px;
 padding: 16px 32px 16px;
 border-radius: 4px;
+
 }
 
 .hover-btn:hover{
@@ -127,6 +129,7 @@ line-height: 1.5;
 letter-spacing: 0.04em;
 cursor: pointer;
 color: var(--color);
+padding: 12px 24px 12px;
 }
 /* Sections  */
 .feature-text {
@@ -147,6 +150,7 @@ text-transform: capitalize;
 color: var(--font-text);
 padding-bottom: 72px;
 }
+
 .feature-subtitle{
 font-family: 'Roboto', sans-serif;
 font-weight: 500;
@@ -154,7 +158,7 @@ font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
 color: var(--font-text);
-padding-top: 32px;
+
 }
 .cards-subtext{
 font-size: 16px;
@@ -162,8 +166,13 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 color: var(--text);
 padding-top: 8px;
-padding-bottom: 32px;
 }
+
+.cards-text{
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
 
 /* Footer */
 .foot-text{
@@ -178,11 +187,9 @@ padding-top: 16px;
 }
 .back-foot{
     background-color:var(--font-text);
-    width: 1440px;
     height: 310px;
     padding-top: 100px;
-    margin-right: auto;
-    margin-top: 120px;
+   padding-bottom: 100px;
 }
 .foot-clt{
     color: var(--ft-col);
@@ -203,9 +210,6 @@ img {
     display: block;
 }
 
-.contaier-site{
-    width: 1440px;
-}
 
 .box{
     width: 1128px;
@@ -241,6 +245,10 @@ padding-bottom: 120px;
 
 
 /* ======================Header=============== */
+.line{
+    border-bottom: 1px solid #E7E9FC;
+    
+}
 .header-navigation{
 display: flex;
 align-items: center;
@@ -283,21 +291,19 @@ margin-right: auto;
 .card-item {
     text-align: center;
 }
-.feature-subtitle{
-    margin-top: 32px;
-}
-
 
 
 .gallery-list{
     display: flex;
     flex-wrap: wrap;
     gap: 48px 24px;
+    padding-bottom: 120px;
 }
 
 .gallery-list li{
     width: calc((100% - 60px) / 3);
 }
+
 /* ======================Footer=============== */
 .box-footer{
     width: 264px;
