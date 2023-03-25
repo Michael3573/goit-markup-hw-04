@@ -80,7 +80,7 @@ font-style: normal
 .hero{
 background-color: var(--font-text);
     padding-top: 188px;
-    padding-bottom: 292px;
+    padding-bottom: 188px;
     height: 600px;
     text-align: center;
 }
@@ -165,12 +165,15 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: var(--text);
-padding-top: 8px;
+margin-top: 8px;
+width: 264px;
 }
 
 .cards-text{
     padding-top: 32px;
     padding-bottom: 32px;
+    padding-left: 16px;
+    padding-right: 16px;
 }
 
 
@@ -181,9 +184,8 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: var(--color-tex);
-width: 264px;
 height: 72px;
-padding-top: 16px;
+margin-top: 16px;
 }
 .back-foot{
     background-color:var(--font-text);
@@ -213,17 +215,16 @@ img {
 
 .box{
     width: 1128px;
-    margin-top: 168px;
-    height: 48px;
-    padding-right: 15px;
+    margin-top: 0px;
+    /* height: 48px; */
+    /* padding-right: 15px; */
     margin: 0 auto;
 }
 
 .box1{
     width: 1128px;
     margin-top: 288px;
-    padding-right: 15px;
-    margin: 0 auto;
+    /* margin: 0 auto; */
     margin-top: 72px;
 }
 
@@ -234,10 +235,22 @@ img {
 }
 
 .section{
-padding-top: 120px;
-padding-bottom: 120px;
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
+.section-2{
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.section-3{
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
 .feature-list{
+    margin-top: 96px;
+    margin-bottom: 72px;
     display: flex;
     gap: 24px;
     justify-content: center;
@@ -280,16 +293,14 @@ margin-right: auto;
 .studio-top{
     margin-right: 76px;
 }
-.button{
-    margin-top: 96px;
-    
-}
+
 
 
 
 /* ==================Sections============== */
-.card-item {
+.card-itm {
     text-align: center;
+    
 }
 
 
@@ -302,8 +313,18 @@ margin-right: auto;
 
 .gallery-list li{
     width: calc((100% - 60px) / 3);
+    width: 360px;
 }
 
+.subcard-item{
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.item-card{
+    border: 1px solid #E7E9FC;
+
+}
 /* ======================Footer=============== */
 .box-footer{
     width: 264px;
