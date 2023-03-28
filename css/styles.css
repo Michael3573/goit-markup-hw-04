@@ -116,7 +116,7 @@ color: var(--font-text);
     max-width: 496px;
     margin-left: auto;
     margin-right: auto;
-    padding-bottom: 48px;
+    margin-bottom: 48px;
 }
 
 .hero-btn{
