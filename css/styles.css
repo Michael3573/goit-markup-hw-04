@@ -195,6 +195,11 @@ color: var(--font-text);
     padding-bottom: 72px;
 }
 
+.customers-item {
+    width: calc((100% - 120px) / 6);
+    height: 88px;
+}
+
 .feature-subtitle{
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
@@ -315,6 +320,13 @@ img {
     padding-bottom: 120px; 
 }
 
+.container-4{
+    width: 1128px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin: 0 auto;
+}
+
 .section-portfolio {
     padding-bottom: 120px;
     padding-top: 120px;
@@ -324,6 +336,12 @@ img {
     display: flex;
     list-style: none;
     gap: 24px;
+    
+}
+
+.sublogo{
+    width: 168px;
+    height: 88px;
 }
 
 .feature-list {
@@ -356,11 +374,11 @@ img {
 }
 
 .list-item:nth-child(1)::before{
-    background-image: url('../images/antenna\ 1.svg');
+    background-image: url("../images/symbol-defs.svg#icon-diagram");
 }
 
 .list-item:nth-child(2)::before {
-    background-image: url('../images/clock\ 1.svg');
+    background-image: url('../images/symbol-defs.svg#icon-clock');
 }
 
 .list-item:nth-child(3)::before {
@@ -369,6 +387,13 @@ img {
 
 .list-item:nth-child(4)::before {
     background-image: url('../images/astronaut\ 1.svg');
+}
+
+.logo-company-partners{
+    width: 168px;
+    height: 88px;
+    border: 1px solid #8E8F99;
+    border-radius: 4px;
 }
 
 
@@ -465,3 +490,4 @@ img {
     width: 16px;
     height: 16px;
 }
+
