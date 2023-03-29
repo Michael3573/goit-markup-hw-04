@@ -192,7 +192,7 @@ color: var(--font-text);
     line-height: 1.11;
     text-align: center;
     letter-spacing: 0.02em;
-    padding-bottom: 72px;
+    margin-bottom: 72px;
 }
 
 .customers-item {
@@ -373,27 +373,44 @@ img {
     background-position: center;
 }
 
-.list-item:nth-child(1)::before{
-    background-image: url("../images/symbol-defs.svg#icon-diagram");
+.list-item:nth-child(1)::before {
+    content: '';
+    background-image: url("../images/antenna.svg");
 }
 
 .list-item:nth-child(2)::before {
-    background-image: url('../images/symbol-defs.svg#icon-clock');
+        content: '';
+        background-image: url("../images/clock.svg");
 }
 
 .list-item:nth-child(3)::before {
-    background-image: url('../images/diagram\ 1.svg');
+    content: '';
+    background-image: url("../images/diagram.svg");
 }
 
-.list-item:nth-child(4)::before {
-    background-image: url('../images/astronaut\ 1.svg');
+    .list-item:nth-child(4)::before {
+            content: '';
+            background-image: url("../images/astronaut.svg");
 }
 
 .logo-company-partners{
     width: 168px;
     height: 88px;
-    border: 1px solid #8E8F99;
+}
+
+.logo-partner{
+    border: 1px solid #8e8f99;
     border-radius: 4px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-company-items{
+    width: 104px;
+    height: 56px;
 }
 
 
