@@ -46,6 +46,11 @@ letter-spacing: 0.03em;
 text-transform: uppercase;
 color: var(--color)
 }
+
+.web-top{
+    margin-right: 76px;
+}
+
 .studio-top{
 font-family: 'Raleway', sans-serif;
 font-weight: 800;
@@ -93,9 +98,7 @@ color: var(--font-text);
     gap: 40px;
 }
 
-.studio-top{
-    margin-right: 76px;
-}
+
 
 
 /* =================Hero =========================*/
@@ -165,6 +168,23 @@ color: var(--font-text);
 .hover-cards:hover{
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
+
+.subbutton:hover,
+.subbutton:focus {
+    background-color: #31D0AA;
+}
+
+.social-link:hover,
+.social-link:focus {
+    background-color: #404BBF;
+}
+
+.logo-partner:hover{
+    fill: #404BBF;
+    border-color: #404bbf;
+}
+
+
 
 .feature-text {
     font-family: 'Roboto', sans-serif;
@@ -411,8 +431,12 @@ img {
 .logo-company-items{
     width: 104px;
     height: 56px;
+    fill: #8e8f99; 
 }
 
+.logo-company-items:hover{
+    fill: #404BBF;
+}
 
 /* ============================Footer========================= */
 
@@ -500,7 +524,7 @@ img {
     width: 40px;
     height: 40px;
     border-radius: 50%;
-    background-color: var(--color);
+    background-color: #4D5AE5;
 }
 
 .social-icon{
