@@ -179,12 +179,27 @@ color: var(--font-text);
     background-color: #404BBF;
 }
 
-.logo-partner:hover{
-    fill: #404BBF;
-    border-color: #404bbf;
+.logo-partner:is(:hover, :focus) {
+   color: #404BBF;
+   border: 1px solid #404BBF;
 }
 
+.logo-company-items {
+    width: 104px;
+    height: 56px;
+    fill: currentColor;
+}
 
+.logo-partner {
+    display: flex;
+    border: 1px solid #8e8f99;
+    width: 100%;
+    height: 100%;
+    border-radius: 4px;
+    justify-content: center;
+    align-items: center;
+    color: #8e8f99;
+}
 
 .feature-text {
     font-family: 'Roboto', sans-serif;
@@ -399,8 +414,8 @@ img {
 }
 
 .list-item:nth-child(2)::before {
-        content: '';
-        background-image: url("../images/clock.svg");
+    content: '';
+    background-image: url("../images/clock.svg");
 }
 
 .list-item:nth-child(3)::before {
@@ -408,9 +423,9 @@ img {
     background-image: url("../images/diagram.svg");
 }
 
-    .list-item:nth-child(4)::before {
-            content: '';
-            background-image: url("../images/astronaut.svg");
+.list-item:nth-child(4)::before {
+    content: '';
+    background-image: url("../images/astronaut.svg");
 }
 
 .logo-company-partners{
@@ -418,25 +433,10 @@ img {
     height: 88px;
 }
 
-.logo-partner{
-    border: 1px solid #8e8f99;
-    border-radius: 4px;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
-.logo-company-items{
-    width: 104px;
-    height: 56px;
-    fill: #8e8f99; 
-}
 
-.logo-company-items:hover{
-    fill: #404BBF;
-}
+
+
 
 /* ============================Footer========================= */
 
