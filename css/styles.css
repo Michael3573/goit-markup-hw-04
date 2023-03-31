@@ -394,8 +394,10 @@ img {
 
 .header-conteiner {
     display: flex;
-    margin-top: 24px;
-    margin-bottom: 24px;
+}
+
+.contaier-site{
+    padding: 24px 0 24px ;
 }
 
 .list-item::before {
